@@ -1,0 +1,41 @@
+{
+  "name": "hta-me",
+  "description": "grab a hta from htahub",
+  "version": "0.1.0",
+  "homepage": "https://github.com/gaving/htahub",
+  "author": {
+    "name": "Gavin Gilmour",
+    "email": "gavin.gilmour@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gaving/htahub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gaving/htahub/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/gaving/htahub/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "src/scripts/hta-me",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt simplemocha"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-coffeelint": "~0.0.6",
+    "grunt-simple-mocha": "~0.4.0",
+    "should": "~1.2.2",
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "hubot"
+  ]
+}
